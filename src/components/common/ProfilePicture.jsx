@@ -1,9 +1,11 @@
 import React from 'react'
+import { Picture } from './styledComponents'
+import { HeaderProfile } from './styledComponents'
 
-export default function ProfilePicture(height, width, shape) {
+export default function ProfilePicture(props) {
   return (
-    <div>
-        <img src="" alt="" className='' />
-    </div>
+    <HeaderProfile>
+      <Picture image={props.img} shape={props.shape} width={props.width} height={props.height} />
+    </HeaderProfile>
   )
 }
