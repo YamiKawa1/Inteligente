@@ -1,1 +1,2 @@
-import const VIOLET = 
+export const VIOLETBTN = 'a'
+export const GRAYLETTER = 'a' 
