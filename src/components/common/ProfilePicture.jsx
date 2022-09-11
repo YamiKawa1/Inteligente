@@ -9,6 +9,7 @@ export default function ProfilePicture(props) {
       <HeaderProfile>
         <Picture image={props.img} shape={props.shape} width={props.width} height={props.height} />
       </HeaderProfile>
+      
       <NameTextProfile>
         <h6><b>Kelly Jenners</b></h6>
         <p>UI/UX Designer</p>

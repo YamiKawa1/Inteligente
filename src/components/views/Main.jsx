@@ -6,9 +6,8 @@ import RigthWall from '../layouts/RigthWall/RigthWall'
 
 export default function Main() {
   return (
-    <div>
+    <div className='container-fluid'>
         <Header/>
-        <div className='container-fluid'>
             <div className='d-flex justify-content-between'>
                 <div>
                     <LeftWall/>
@@ -20,7 +19,6 @@ export default function Main() {
                     <RigthWall/>    
                 </div>
             </div>
-        </div>
     </div>
   )
 }

@@ -19,8 +19,9 @@ border-radius: 1% 1% 0 0;
 export const HeaderProfile = styled.div`
 background-color: white;
 position: relative;
-bottom: 5em;
-left: 2em;
+float:  ;
+// bottom: 5em;
+// left: 2em;
 border-radius: 3px;
 padding: 3px;
 `
