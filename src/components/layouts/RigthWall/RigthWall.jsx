@@ -1,19 +1,16 @@
 import React from 'react'
-import { Rigth } from '../styledComponents'
-import MiniMenu from '../MiniMenu/MiniMenu'
+import '../layouts.css'
+import LatestPhotos from '../LatestPhotos/LatestPhotos'
+import Suggestions from '../Suggestions/Suggestions'
+import Polls from '../Polls/Polls'
+
 
 export default function RigthWall() {
   return (
-    <Rigth>
-      <MiniMenu>
-
-      </MiniMenu>
-      <MiniMenu>
-
-      </MiniMenu>
-      <MiniMenu>
-
-      </MiniMenu>
-    </Rigth>
+    <div className='Rigth'>
+      <LatestPhotos/>
+      <Suggestions/>
+      <Polls/>
+    </div>
   )
 }

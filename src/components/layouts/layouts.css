@@ -1,0 +1,41 @@
+.NavBarContainer {
+    width: 100%;
+    margin-left: 8.5em;
+}
+
+.HeaderContainer {
+    background-color: white;
+    margin-top: 0.5em;
+    width: 100%;
+    border-radius: 1% 1% 0 0;
+}
+
+.Menu {
+    background-color: white;
+    width: 100%;
+    border-radius: 1%;
+    padding: 0.7em;
+    margin-bottom: 0.5em;
+}
+
+.Menu h1{
+    font-size: 11px;
+}
+
+.Menu p{
+    font-size: 9px;
+} 
+
+.PhotoItem {
+    margin-bottom: 0.1em;
+}
+
+.PhotoGroup {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.PhotoGroup div {
+    flex: auto;
+    margin: 0.1em 0.2em;
+}

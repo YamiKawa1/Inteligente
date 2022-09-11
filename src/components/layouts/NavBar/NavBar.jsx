@@ -1,10 +1,10 @@
 import React from 'react'
-import { NavBarContainer } from '../styledComponents'
+import  '../layouts.css'
 import Button from '../../common/Button'
 
 export default function NavBar() {
   return (
-    <NavBarContainer className='mt-2 mb-2'>
+    <div className='mt-2 mb-2 NavBarContainer'>
       <div className='d-flex'>
           <Button active={true} text='Feed'/>
           <Button active={false} text='About'/>
@@ -14,6 +14,6 @@ export default function NavBar() {
             <Button active={true} text='Edit'/>
           </div>
       </div>
-    </NavBarContainer>
+    </div>
   )
 }

@@ -16,16 +16,6 @@ background-size: cover;
 border-radius: 1% 1% 0 0;
 `
 
-export const HeaderProfile = styled.div`
-background-color: white;
-position: relative;
-float:  ;
-// bottom: 5em;
-// left: 2em;
-border-radius: 3px;
-padding: 3px;
-`
-
 export const Picture = styled.div`
 background-image: url(${props=> props.image || unknown});
 width: ${props=> props.width};
@@ -49,17 +39,5 @@ box-shadow: ${props => props.active ? '0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px
 
 &hover: {
     
-}
-`
-export const NameTextProfile = styled.div`
-position: relative;
-bottom: 4em;
-left: 3.5em;
-color: white;
-border-radius: 3px;
-padding: 3px;
-
-p {
-    font-size: 12px
 }
 `

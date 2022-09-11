@@ -1,0 +1,28 @@
+.BodyContainer {
+    margin-top: 0.5em;
+}
+
+
+
+.flexbox {
+    display: inline-flex;
+}
+
+.Left{ 
+    display: inline-flex;
+    flex-grow: 2;
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+}
+
+.Center {
+    flex-grow: 6;
+    margin-top: 0.5em;
+}
+
+.Rigth {
+    flex-grow: 2;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
+
