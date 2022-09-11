@@ -3,6 +3,7 @@ import {HeaderImage} from './styledComponents'
 
 export default function HeaderImg() {
   return (
-    <HeaderImage></HeaderImage>
+    <HeaderImage>
+    </HeaderImage>
   )
 }

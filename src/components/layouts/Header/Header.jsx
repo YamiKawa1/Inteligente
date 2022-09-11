@@ -7,12 +7,14 @@ import P1 from '../../../assets/img/P1.jpg'
 
 export default function Header() {
   return (
-    <div className='container-fluid border-0'>
+    <div className='container-fluid'>
       <HeaderContainer>
         <HeaderImg/>
         <div className='d-flex'>
-          <ProfilePicture img={P1} width='5em' height='5.5em'/>
-          <NavBar/>
+        <ProfilePicture img={P1} width='5em' height='5.5em'/>
+        </div>
+        <div className='d-flex'>
+        <NavBar/>
         </div>
       </HeaderContainer>
       
