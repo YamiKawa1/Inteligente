@@ -7,8 +7,6 @@ import P3 from '../../../assets/img/P3.jpg'
 import P4 from '../../../assets/img/P4.jpg'
 import P5 from '../../../assets/img/P5.jpg'
 import P6 from '../../../assets/img/P6.jpg'
-import P7 from '../../../assets/img/P7.jpg'
-import P8 from '../../../assets/img/P8.jpg'
 import P9 from '../../../assets/img/P9.jpg'
 
 export default function Suggestions() {
@@ -16,7 +14,13 @@ export default function Suggestions() {
     <div>
         <div className='Menu'>
           <h1>Suggestions</h1>
-          <PictureTextButton image={P1} shape='circle' width='1em' height='1em'/>
+          <PictureTextButton image={P1} shape='circle' width='1.3em' height='1.3em' name='Lorenzo Nostrade' subtitle='1 Mutual Friend'/>
+          <PictureTextButton image={P2} shape='circle' width='1.3em' height='1.3em' name='Paola Nostrade' subtitle='1 Mutual Friend'/>
+          <PictureTextButton image={P3} shape='circle' width='1.3em' height='1.3em' name='Juan De las nieves' subtitle='1 Mutual Friend'/>
+          <PictureTextButton image={P4} shape='circle' width='1.3em' height='1.3em' name='Nerd Stark' subtitle='1 Mutual Friend'/>
+          <PictureTextButton image={P5} shape='circle' width='1.3em' height='1.3em' name='Snoob Patrol' subtitle='1 Mutual Friend'/>
+          <PictureTextButton image={P6} shape='circle' width='1.3em' height='1.3em' name='Nombre Random' subtitle='1 Mutual Friend'/>
+          <PictureTextButton image={P9} shape='circle' width='1.3em' height='1.3em' name='Michael Jackson' subtitle='1 Mutual Friend'/>
         </div>
     </div>
   )

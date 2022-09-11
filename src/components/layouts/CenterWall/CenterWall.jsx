@@ -1,7 +1,10 @@
 import React from 'react'
+import '../layouts.css'
 
 export default function CenterWall() {
   return (
-    <div>CenterWalldddddd dddddd ddddddddddddd ddddddddddddddddddddddddddd</div>
+    <div className='Post'>
+      
+    </div>
   )
 }

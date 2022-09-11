@@ -9,14 +9,14 @@ export default function Main() {
   return (
     <div className='container-fluid'>
         <Header/>
-            <div className='flexbox BodyContainer'>
+            <div className='flexbox'>
                 <div className='Left'>
                     <LeftWall/>
                 </div>
                 <div className='Center'>
                     <CenterWall/>
                 </div>
-                <div className='Rigt'>
+                <div className='Rigth ms-auto'>
                     <RigthWall/>    
                 </div>
             </div>

@@ -22,3 +22,20 @@ color: white;
     .NameTextProfile p { 
         font-size: 11px
     }
+
+.NameSubtitle h3{
+    margin-left: 0.7em;
+    margin-bottom: 0;
+}
+
+.NameSubtitle p{
+    margin-left: 0.7em;
+}
+
+.AddFriendBtn{
+    background-color: #9c9ee2;
+    color: white;
+    font-size: small;
+    border: none;
+    border-radius: 10%;
+}
