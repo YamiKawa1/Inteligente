@@ -10,6 +10,7 @@ import POST1 from '../../../assets/img/POST1.jpg'
 import '../layouts.css'
 import FavoriteRoundedIcon from '@mui/icons-material/FavoriteRounded';
 import ChatBubbleOutlineRoundedIcon from '@mui/icons-material/ChatBubbleOutlineRounded';
+import ChatBubbleRoundedIcon from '@mui/icons-material/ChatBubbleRounded';
 import ShareRoundedIcon from '@mui/icons-material/ShareRounded';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
 
@@ -24,11 +25,11 @@ export default function Post() {
       <PostImage image={POST1}/>
 
         <div className='d-flex'>
-        <IconNumber icon={<FavoriteBorderRoundedIcon/>} text='+' number={1000}/>
+        <IconNumber active={true} iconActive={<FavoriteRoundedIcon/>} iconInactive={<FavoriteBorderRoundedIcon/>} color='red' text='+' number={1000}/>
         <PhotoGroup/>
         <div className='ms-auto d-flex'>
-          <IconNumber icon={<ChatBubbleOutlineRoundedIcon/>} text='+' number={1000}/>
-          <IconNumber icon={<ShareRoundedIcon/>} text='+' number={1000}/>
+          <IconNumber active={true} iconActive={<ChatBubbleRoundedIcon/>} iconInactive={<ChatBubbleOutlineRoundedIcon/>} color='#692FB3' text='+' number={1000}/>
+          <IconNumber active={true} iconActive={<ShareRoundedIcon/>} iconInactive={<ShareRoundedIcon/>} color='#692FB3' text='+' number={1000}/>
         </div>
 
       </div>
