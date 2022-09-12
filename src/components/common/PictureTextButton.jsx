@@ -19,7 +19,7 @@ export default function PictureTextButton(props) {
       <span><i class="bi bi-person-plus"></i></span>
       <Picture image={props.image} shape={props.shape} width={props.width} height={props.height} />
       <div className='NameSubtitle'>
-        <h3>{props.name}</h3>
+        <h3><b>{props.name}</b></h3>
         <p>{props.subtitle}</p>
       </div>
       { props.isButton === true ?

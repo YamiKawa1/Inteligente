@@ -13,7 +13,7 @@
 
 .Menu {
     background-color: white;
-    color: gray;
+    color: rgba(0, 0, 0, .6);
     height: fit-content;
     width: 23vw;
     line-height: 1.7;
@@ -35,6 +35,7 @@
 
     .Menu p{
         font-size: 8px;
+        color: rgba(0, 0, 0, .4);
         margin-bottom: 1em;
         margin-right: 2.5EM;
     } 
@@ -55,7 +56,7 @@
 
 .Post {
     background-color: white;
-    color: gray;
+    color: rgba(0, 0, 0, .6);
     width: 47vw;
     line-height: 1.7;
     border-radius: 2%;
@@ -74,6 +75,7 @@
     }
 
     .Post p{
+        color: rgba(0, 0, 0, .4);
         font-size: 8px;
         margin-bottom: 1em;
     } 
