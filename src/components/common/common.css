@@ -33,11 +33,16 @@
 }
 
 .AddFriendBtn{
-    background-color: #9c9ee2;
+    background-color: #692FB3;
     color: white;
     font-size: small;
     border: none;
     border-radius: 10%;
+}
+
+.NotButton{
+    border: none;
+    background-color: transparent;
 }
 
 .Smallsvg svg{

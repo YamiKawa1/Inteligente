@@ -43,8 +43,8 @@ export default function Post() {
       </div>
 
       <div className='MakeComment'>
-        <div class="input-group">
-          <textarea class="form-control" aria-label="With textarea" placeholder="Add Comment..."></textarea>
+        <div className="input-group">
+          <textarea className="form-control" aria-label="With textarea" placeholder="Add Comment..."></textarea>
         </div>
       </div>
       

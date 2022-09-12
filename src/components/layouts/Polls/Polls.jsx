@@ -7,13 +7,14 @@ export default function Polls() {
     <div className='Menu'>
         <h1>Polls</h1>
         <p>Who is the best actor in Marvel Cinematic Universe?</p>
-        <input type="radio" /><label>Criss Hemsworth</label>
+        <input type="radio" id="huey" name="drone" value="criss" checked/><label>Criss Hemsworth</label>
+        <div className='Percentage'></div>
         <PhotoGroup/>
         <br />
-        <input type="radio" /><label>Robert Downey Junior</label>
+        <input type="radio" id="dewey" name="drone" value="dewey"/><label>Robert Downey Junior</label>
+        <div className='Percentage'></div>
         <PhotoGroup/>
         <br />
-
     </div>
   )
 }
