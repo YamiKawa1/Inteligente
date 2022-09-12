@@ -36,6 +36,7 @@
     .Menu p{
         font-size: 8px;
         margin-bottom: 1em;
+        margin-right: 2.5EM;
     } 
 
     .Menu small {
@@ -55,7 +56,7 @@
 .Post {
     background-color: white;
     color: gray;
-    width: 46vw;
+    width: 47vw;
     line-height: 1.7;
     border-radius: 2%;
     margin-top: 0.5em;
@@ -76,3 +77,9 @@
         font-size: 8px;
         margin-bottom: 1em;
     } 
+
+.Hashtag {
+    position: relative;
+    bottom: 0.7em;
+    color:darkblue;
+}

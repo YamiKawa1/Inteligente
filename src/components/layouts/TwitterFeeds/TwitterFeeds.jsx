@@ -9,7 +9,11 @@ export default function TwitterFeeds() {
         <h1>Twitter Feeds</h1>
         <PictureTextButton image={P1} shape='circle' width='1.3em' height='1.3em' name='Lorenzo Nostrade' subtitle='@Cataluna' isButton active/>
         <p>I dotn know what to put in this twitter because i am not so cr5eative</p>
-        <small>ssss</small>
+        <p className='Hashtag'>#idk #Hello #NeverMind #ThisIsCrazy</p> 
+        
+        <PictureTextButton image={P1} shape='circle' width='1.3em' height='1.3em' name='Lorenzo Nostrade' subtitle='@Cataluna' isButton/>
+        <p>I dotn know what to put in this twitter because i am not so cr5eative</p>
+        <p className='Hashtag'>#idk #Hello #NeverMind #ThisIsCrazy</p> 
     </div>
   )
 }
