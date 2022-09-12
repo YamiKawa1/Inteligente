@@ -2,17 +2,32 @@ export const Perfil =[
     {
         "ProfilePicture": "P1",
         "Name": "Kelly Jenners",
-        "Subtitle": "UI/UX Designer"
+        "Subtitle": "UI/UX Designer",
+        "About": "I love to program every thing that i see and i love to playvideogames",
+        "Joined": "Novembre 15, 2015",
+        "Lives": "New York, USA",
+        "Email": "Bucjethead@gmail.com",
+        "Website": "www.claudia.com"
     },
     {
         "ProfilePicture": "P2",
         "Name": "Arena Stark",
-        "Subtitle": "Backend Developer"
+        "Subtitle": "Backend Developer",
+        "About": "I love to program every thing that i see and i love to playvideogames",
+        "Joined": "Novembre 15, 2015",
+        "Lives": "New York, USA",
+        "Email": "Bucjethead@gmail.com",
+        "Website": "www.claudia.com"
     },
     {
         "ProfilePicture": "P3",
         "Name": "Jehan Veracierta",
-        "Subtitle": "FullStack Developer"
+        "Subtitle": "FullStack Developer",
+        "About": "I love to program every thing that i see and i love to playvideogames",
+        "Joined": "Novembre 15, 2015",
+        "Lives": "New York, USA",
+        "Email": "Bucjethead@gmail.com",
+        "Website": "www.claudia.com"
     }
 ]
 
@@ -159,12 +174,13 @@ export const Suggestions = [
     }
 ]
 
-export const TwitterFeeds = [
+export const TWITTERFEEDS = [
     {
         "ProfilePicture": "P6",
         "Name": "Lorenzo Nostrade",
         "Username": "@LoNo",
         "Twitt": "sit amet consectetur, adipisicing elit. Repellat tempore fugit totam adipisci vero, dicta",
+        "Hashtags": ["Hola", "NewYearNewMe", "ThisTime", "fromVenezuela", "XD"],
         "Favorite": true
     },
     {
@@ -172,6 +188,7 @@ export const TwitterFeeds = [
         "Name": "Arena Stark",
         "Username": "@Aria",
         "Twitt":"Lorem Ipsum Kaizoku ni ore wa naru, mas cosas randoms, blanditiis hic saepe ut suscipit repudiandae doloremque impedit consectetur earum omnis, pariatur quibusdam minima iure.",
+        "Hashtags": ["Hola", "NewYearNewMe", "ThisTime", "IWillGetOut", "XD"],
         "Favorite": false
     },
     {
@@ -179,6 +196,7 @@ export const TwitterFeeds = [
         "Name": "Jehan Veracierta",
         "Username": "@JehanCV",
         "Twitt":"Lorem Ipsum Kaizoku ni ore wa naru, mas cosas randoms, blanditiis hic saepe ut",
+        "Hashtags": ["Hola", "NewYearNewMe", "ThisTime", "fromVenezuela", "XD"],
         "Favorite": false
     }
 ]
