@@ -1,6 +1,23 @@
+import P1 from '../assets/img/P1.jpg'
+import P2 from '../assets/img/P2.jpg'
+import P3 from '../assets/img/P3.jpg'
+import P4 from '../assets/img/P4.jpg'
+import P5 from '../assets/img/P5.jpg'
+import P6 from '../assets/img/P6.jpg'
+import P7 from '../assets/img/P7.jpg'
+import P8 from '../assets/img/P8.jpg'
+import P9 from '../assets/img/P9.jpg'
+import LS1 from '../assets/img/LS1.jpg'
+import POST1 from '../assets/img/POST1.jpg'
+import POST2 from '../assets/img/POST2.jpg'
+import POST3 from '../assets/img/POST3.jpg'
+
+
+
+
 export const Perfil =[
     {
-        "ProfilePicture": "P1",
+        "ProfilePicture": P6,
         "Name": "Kelly Jenners",
         "Subtitle": "UI/UX Designer",
         "About": "I love to program every thing that i see and i love to playvideogames",
@@ -10,7 +27,7 @@ export const Perfil =[
         "Website": "www.claudia.com"
     },
     {
-        "ProfilePicture": "P2",
+        "ProfilePicture": P7,
         "Name": "Arena Stark",
         "Subtitle": "Backend Developer",
         "About": "I love to program every thing that i see and i love to playvideogames",
@@ -20,7 +37,7 @@ export const Perfil =[
         "Website": "www.claudia.com"
     },
     {
-        "ProfilePicture": "P3",
+        "ProfilePicture": P9,
         "Name": "Jehan Veracierta",
         "Subtitle": "FullStack Developer",
         "About": "I love to program every thing that i see and i love to playvideogames",
@@ -176,7 +193,7 @@ export const Suggestions = [
 
 export const TWITTERFEEDS = [
     {
-        "ProfilePicture": "P6",
+        "ProfilePicture": P1,
         "Name": "Lorenzo Nostrade",
         "Username": "@LoNo",
         "Twitt": "sit amet consectetur, adipisicing elit. Repellat tempore fugit totam adipisci vero, dicta",
@@ -184,7 +201,7 @@ export const TWITTERFEEDS = [
         "Favorite": true
     },
     {
-        "ProfilePicture": "P2",
+        "ProfilePicture": P2,
         "Name": "Arena Stark",
         "Username": "@Aria",
         "Twitt":"Lorem Ipsum Kaizoku ni ore wa naru, mas cosas randoms, blanditiis hic saepe ut suscipit repudiandae doloremque impedit consectetur earum omnis, pariatur quibusdam minima iure.",
@@ -192,7 +209,7 @@ export const TWITTERFEEDS = [
         "Favorite": false
     },
     {
-        "ProfilePicture": "P3",
+        "ProfilePicture": P3,
         "Name": "Jehan Veracierta",
         "Username": "@JehanCV",
         "Twitt":"Lorem Ipsum Kaizoku ni ore wa naru, mas cosas randoms, blanditiis hic saepe ut",
