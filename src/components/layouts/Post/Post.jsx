@@ -25,11 +25,11 @@ export default function Post() {
       <PostImage image={POST1}/>
 
         <div className='d-flex'>
-        <IconNumber active={true} iconActive={<FavoriteRoundedIcon/>} iconInactive={<FavoriteBorderRoundedIcon/>} color='red' text='+' number={1000}/>
+        <IconNumber active={true} iconActive={<FavoriteRoundedIcon/>} iconInactive={<FavoriteBorderRoundedIcon/>} color='red' number={1000}/>
         <PhotoGroup/>
         <div className='ms-auto d-flex'>
-          <IconNumber active={true} iconActive={<ChatBubbleRoundedIcon/>} iconInactive={<ChatBubbleOutlineRoundedIcon/>} color='#692FB3' text='+' number={1000}/>
-          <IconNumber active={true} iconActive={<ShareRoundedIcon/>} iconInactive={<ShareRoundedIcon/>} color='#692FB3' text='+' number={1000}/>
+          <IconNumber active={true} iconActive={<ChatBubbleRoundedIcon/>} iconInactive={<ChatBubbleOutlineRoundedIcon/>} color='#692FB3' number={1000}/>
+          <IconNumber active={true} iconActive={<ShareRoundedIcon/>} iconInactive={<ShareRoundedIcon/>} color='#692FB3' number={1000}/>
         </div>
 
       </div>
