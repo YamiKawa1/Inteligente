@@ -1,17 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import StarBorderRoundedIcon from '@mui/icons-material/StarBorderRounded';
 import StarRateRoundedIcon from '@mui/icons-material/StarRateRounded';
 import './common.css'
 
 export default function FavoriteButton(props) {
+  const[isFavorite, setIsFavorite] = useState(props.active)
+  console.log(props.active);
+
+  function handleFavorite() {
+    setIsFavorite(!isFavorite) 
+  }
+  
   return (
-    <i>
+    <div>
         {
-        props.active === true ? 
-        <button className='NotButton'><span className='Smallsvg Star'><StarRateRoundedIcon/></span></button>  
+        isFavorite === true ? 
+        <button className='NotButton' onClick={handleFavorite}><span className='Smallsvg Star'><StarRateRoundedIcon/></span></button>  
         : 
-        <button className='NotButton'><span className='Smallsvg '><StarBorderRoundedIcon/></span></button>
+        <button className='NotButton' onClick={handleFavorite}><span className='Smallsvg'><StarBorderRoundedIcon/></span></button>
         }
-    </i>
-  )
-}
+    </div>
+  )}
