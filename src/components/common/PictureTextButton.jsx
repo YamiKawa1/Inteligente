@@ -1,17 +1,8 @@
 import React from 'react'
 import { Picture } from './styledComponents'
 import './common.css'
-// import P1 from '../../assets/img/P1.jpg'
-// import P2 from '../../assets/img/P2.jpg'
-// import P3 from '../../assets/img/P3.jpg'
-// import P4 from '../../assets/img/P4.jpg'
-// import P5 from '../../assets/img/P5.jpg'
-// import P6 from '../../assets/img/P6.jpg'
-// import P7 from '../../assets/img/P7.jpg'
-// import P8 from '../../assets/img/P8.jpg'
-// import P9 from '../../assets/img/P9.jpg'
 import PersonAddIcon from '@mui/icons-material/PersonAdd';
-import FavoriteButton from './FavoriteButton';
+import  IconButton from './icon/IconButton';
 
 export default function PictureTextButton(props) {
   return (
@@ -27,7 +18,11 @@ export default function PictureTextButton(props) {
       { 
         props.isButton === true ?
           <div className='ms-auto'> 
-          {props.button === true ?  <button className='AddFriendBtn Smallsvg'><PersonAddIcon/></button> : <FavoriteButton active={props.active}/>}  
+          {
+          props.button === true ?  <button className='AddFriendBtn Smallsvg'><PersonAddIcon/></button> 
+          : 
+          <IconButton active={props.active} iconActive={props.iconActive} iconInactive={props.iconInactive}/>
+          }  
           </div>
         :
           null
