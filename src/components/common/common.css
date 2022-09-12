@@ -51,3 +51,28 @@
 .NumberAfterIcon{
     margin-top: 7px;
 }
+
+.GroupPhotos {
+    position: relative;
+    display: flex;
+}
+    .Group1{
+        position: absolute;
+        left: 0;
+    }
+    .Group2{
+        position: absolute;
+        left: 10px;
+    }
+    .Group3{
+        position: absolute;
+        left: 20px;
+    }
+    .Group4{
+        position: absolute;
+        left: 30px;
+    }
+    .Group5{
+        position: absolute;
+        left: 40px;
+    }

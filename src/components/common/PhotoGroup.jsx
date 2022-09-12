@@ -9,12 +9,12 @@ import './common.css'
 
 export default function PhotoGroup(props) {
   return (
-    <div className='d-flex '>
-      <div><Picture shape='circle' image={P2} width='1.3em' height='1.3em'/></div>
-      <div><Picture shape='circle' image={P3} width='1.3em' height='1.3em'/></div>
-      <div><Picture shape='circle' image={P4} width='1.3em' height='1.3em'/></div>
-      <div><Picture shape='circle' image={P5} width='1.3em' height='1.3em'/></div>
-      <div><Picture shape='circle' image={P6} width='1.3em' height='1.3em'/></div>
+    <div className='GroupPhotos'>
+      <div className='Group1'><Picture shape='circle' image={P2} width='1.3em' height='1.3em'/></div>
+      <div className='Group2'><Picture shape='circle' image={P3} width='1.3em' height='1.3em'/></div>
+      <div className='Group3'><Picture shape='circle' image={P4} width='1.3em' height='1.3em'/></div>
+      <div className='Group4'><Picture shape='circle' image={P5} width='1.3em' height='1.3em'/></div>
+      <div className='Group5'><Picture shape='circle' image={P6} width='1.3em' height='1.3em'/></div>
     </div>
   )
 }
