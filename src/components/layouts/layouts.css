@@ -37,7 +37,7 @@
         font-size: 8px;
         color: rgba(0, 0, 0, .4);
         margin-bottom: 1em;
-        margin-right: 2.5EM;
+        margin-right: 1.5em;
     } 
 
     .Menu small {
@@ -77,11 +77,12 @@
     .Post p{
         color: rgba(0, 0, 0, .4);
         font-size: 8px;
-        margin-bottom: 1em;
+        margin-bottom: 0.5em;
     } 
 
 .Hashtag {
     position: relative;
     bottom: 0.7em;
-    color:darkblue;
+    color:#9c9ee2!important;
 }
+

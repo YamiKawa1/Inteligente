@@ -2,10 +2,6 @@
     display: flex;
 }
 
-.PictureTextButton {
-    
-}
-
 .HeaderProfile {
     background-color: white;
     position: relative;
@@ -16,11 +12,11 @@
 }
 
 .NameTextProfile {
-margin-bottom: 0;
-position: relative;
-bottom: 3em;
-left: 3em;
-color: white;
+    margin-bottom: 0;
+    position: relative;
+    bottom: 3em;
+    left: 3em;
+    color: white;
 }
 
     .NameTextProfile p { 
@@ -47,6 +43,7 @@ color: white;
 .Smallsvg svg{
     font-size: smaller;
 }
+
 .Star {
     color: #FFAA00;
 }
