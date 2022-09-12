@@ -1,0 +1,40 @@
+[
+    {
+        "ProfilePicture": "P1",
+        "Name": "Lorenzo Nostrade",
+        "Subtitle": "Company",
+        "Favorite": true
+    },
+    {
+        "ProfilePicture": "P2",
+        "Name": "Arena Stark",
+        "Subtitle": "Company",
+        "Favorite": true
+    },
+    {
+        "ProfilePicture": "P3",
+        "Name": "Jehan Veracierta",
+        "Subtitle": "Company",
+        "Favorite": true
+
+    },
+    {
+        "ProfilePicture": "P1",
+        "Name": "Lorenzo Nostrade",
+        "Subtitle": "Company",
+        "Favorite": false
+
+    },
+    {
+        "ProfilePicture": "P2",
+        "Name": "Arena Stark",
+        "Subtitle": "Company",
+        "Favorite": true
+    },
+    {
+        "ProfilePicture": "P3",
+        "Name": "Jehan Veracierta",
+        "Subtitle": "Store",
+        "Favorite": false
+    }
+]
