@@ -15,7 +15,7 @@ import POST3 from '../assets/img/POST3.jpg'
 
 
 
-export const Perfil =[
+export const PERFIL =[
     {
         "ProfilePicture": P6,
         "Name": "Kelly Jenners",
