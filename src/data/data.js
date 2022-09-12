@@ -158,36 +158,36 @@ export const SuggestedPages = [
     }
 ]
 
-export const Suggestions = [
+export const SUGGESTIONS = [
     {
-        "ProfilePicture": "P1",
+        "ProfilePicture": P8,
         "Name": "Lorenzo Nostrade",
-        "Subtitle": "2 Mutual Friend"
+        "MutualFriends": 2
     },
     {
-        "ProfilePicture": "P2",
+        "ProfilePicture": P2,
         "Name": "Arena Stark",
-        "Subtitle": "8 Mutual Friend"
+        "MutualFriends": 8
     },
     {
-        "ProfilePicture": "P3",
+        "ProfilePicture": P3,
         "Name": "Jehan Veracierta",
-        "Subtitle": "6 Mutual Friend"
+        "MutualFriends": 6
     },
     {
-        "ProfilePicture": "P1",
+        "ProfilePicture": P5,
         "Name": "Lorenzo Nostrade",
-        "Subtitle": "2 Mutual Friend"
+        "MutualFriends": 2
     },
     {
-        "ProfilePicture": "P2",
+        "ProfilePicture": P6,
         "Name": "Arena Stark",
-        "Subtitle": "8 Mutual Friend"
+        "MutualFriends": 8
     },
     {
-        "ProfilePicture": "P3",
+        "ProfilePicture": P9,
         "Name": "Jehan Veracierta",
-        "Subtitle": "6 Mutual Friend"
+        "MutualFriends": 6
     }
 ]
 

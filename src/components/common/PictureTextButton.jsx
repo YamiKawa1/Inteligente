@@ -12,7 +12,8 @@ export default function PictureTextButton(props) {
 
       <div className='NameSubtitle'>
         <h3><b>{props.name}</b></h3>
-        <p>{props.subtitle}</p>
+        {props.mutualFriends? <p>{props.mutualFriends} Mutual Friends</p>: null}
+        {props.Category ? <p>{props.Category}</p> : null}
       </div>
 
       { 
