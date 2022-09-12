@@ -2,6 +2,10 @@
     display: flex;
 }
 
+.PictureTextButton {
+    
+}
+
 .HeaderProfile {
     background-color: white;
     position: relative;
@@ -38,4 +42,11 @@ color: white;
     font-size: small;
     border: none;
     border-radius: 10%;
+}
+
+.Smallsvg svg{
+    font-size: smaller;
+}
+.Star {
+    color: #FFAA00;
 }

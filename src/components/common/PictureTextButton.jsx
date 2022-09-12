@@ -1,7 +1,6 @@
 import React from 'react'
 import { Picture } from './styledComponents'
 import './common.css'
-import Button from './Button'
 // import P1 from '../../assets/img/P1.jpg'
 // import P2 from '../../assets/img/P2.jpg'
 // import P3 from '../../assets/img/P3.jpg'
@@ -12,19 +11,26 @@ import Button from './Button'
 // import P8 from '../../assets/img/P8.jpg'
 // import P9 from '../../assets/img/P9.jpg'
 import PersonAddIcon from '@mui/icons-material/PersonAdd';
+import FavoriteButton from './FavoriteButton';
 
 export default function PictureTextButton(props) {
   return (
-    <div className='flexbox align-items-start'>
+    <div className='flexbox PictureTextButton'>
       <span><i class="bi bi-person-plus"></i></span>
       <Picture image={props.image} shape={props.shape} width={props.width} height={props.height} />
       <div className='NameSubtitle'>
         <h3>{props.name}</h3>
         <p>{props.subtitle}</p>
       </div>
-      <div className='ms-auto '>
-        <button className='AddFriendBtn'><PersonAddIcon/></button>
-      </div>
+      { props.isButton === true ?
+
+        <div className='ms-auto'> 
+        {props.button === true ?  <button className='AddFriendBtn Smallsvg'><PersonAddIcon/></button> : <FavoriteButton active={props.active}/>}  
+        </div>
+      :
+        null
+      }
+      
     </div>
   )
 }

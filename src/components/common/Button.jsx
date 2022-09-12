@@ -1,5 +1,6 @@
 import React from 'react'
 import { GeneralButton } from './styledComponents'
+import './common.css'
 
 export default function Button(props) {
   return (

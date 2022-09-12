@@ -38,6 +38,10 @@
         margin-bottom: 1em;
     } 
 
+    .Menu small {
+        font-size: 7px;
+    }
+
 .PhotoGroup {
     display: flex;
     flex-wrap: wrap;
@@ -51,11 +55,11 @@
 .Post {
     background-color: white;
     color: gray;
-    width: 100%;
+    width: 46vw;
     line-height: 1.7;
     border-radius: 2%;
-    padding: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    padding: 1em;
     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
 }
 

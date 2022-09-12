@@ -36,6 +36,7 @@ margin: 0 0.2em;
 border-radius: 3%;
 border: none;
 box-shadow: ${props => props.active ? '0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19)': 'none'};
+
 &hover: {
     
 }
