@@ -97,3 +97,8 @@
 .MakeComment textarea::placeholder{
     font-size: 12px;
 }
+
+.LoadMore{
+    text-align: center;
+    margin-bottom: .5em;
+}
