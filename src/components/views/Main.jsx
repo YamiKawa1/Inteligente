@@ -10,10 +10,10 @@ export default function Main() {
     <div className='container-fluid'>
         <Header/>
             <div className='flexbox'>
-                <div className='Left'>
+                <div className='Left me-auto'>
                     <LeftWall/>
                 </div>
-                <div className='Center'>
+                <div className='Center me-auto'>
                     <CenterWall/>
                 </div>
                 <div className='Rigth ms-auto'>

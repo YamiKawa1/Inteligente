@@ -21,7 +21,7 @@
     line-break: normal;
     border-radius: 2%;
     padding: 0.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.7em;
     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -58,13 +58,13 @@
 
 .PhotoGroup div {
     flex: auto;
-    margin: 0.3em 0.3em;
+    margin: 0.4em 0.4em;
 }
 
 .Post {
     background-color: white;
     color: rgba(0, 0, 0, .6);
-    width: 47vw;
+    width: 100%;
     line-height: 1.7;
     border-radius: 2%;
     margin: 0.5em 0 1em 0;
@@ -98,7 +98,7 @@
         position: relative;
         left: 4.5em;
         bottom: 1.7em;
-        margin-right: 3.5em;
+        margin-right: 5em;
     }
 
 .MakeComment textarea::placeholder{
