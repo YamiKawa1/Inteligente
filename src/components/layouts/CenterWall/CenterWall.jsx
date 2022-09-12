@@ -6,6 +6,10 @@ export default function CenterWall() {
   return (
     <div>
       <Post/>
+      <Post/>
+      <Post/>
+      <br />
+      
     </div>
   )
 }

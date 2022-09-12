@@ -35,7 +35,7 @@
 
     .Menu p{
         font-size: 8px;
-        color: rgba(0, 0, 0, .4);
+        color: rgba(0, 0, 0, .5);
         margin-bottom: 1em;
         margin-right: 1.5em;
     } 
@@ -60,7 +60,8 @@
     width: 47vw;
     line-height: 1.7;
     border-radius: 2%;
-    margin-top: 0.5em;
+    margin: 0.5em 0 1em 0;
+    
     padding: 1em;
     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
 }
@@ -75,9 +76,9 @@
     }
 
     .Post p{
-        color: rgba(0, 0, 0, .4);
+        color: rgba(0, 0, 0, .7);
         font-size: 8px;
-        margin-bottom: 0.5em;
+        margin-bottom: 0.3em;
     } 
 
 .Hashtag {
@@ -86,3 +87,13 @@
     color:#9c9ee2!important;
 }
 
+    .Comment p{
+        position: relative;
+        left: 4.5em;
+        bottom: 1.7em;
+        margin-right: 3.5em;
+    }
+
+.MakeComment textarea::placeholder{
+    font-size: 12px;
+}
