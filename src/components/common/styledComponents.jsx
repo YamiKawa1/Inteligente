@@ -24,6 +24,7 @@ border-radius: ${props=> props.shape === 'circle' ? '50%': '3px'};
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+border: 1px solid white;
 `
 
 export const GeneralButton = styled.button`
