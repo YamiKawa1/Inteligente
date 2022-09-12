@@ -81,3 +81,19 @@
         position: absolute;
         left: 40px;
     }
+
+.ConfigButton {
+    position: absolute;
+    height: auto;
+    width: 40px;
+    top: 7em;
+    right: -5px;
+    background-color: #692FB3;
+    border-radius: 10%;
+}
+
+.ConfigButton button{
+    color: white;
+    border: none;
+    background-color: transparent;
+}

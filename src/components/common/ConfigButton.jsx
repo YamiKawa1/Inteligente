@@ -1,9 +1,11 @@
 import React from 'react'
-import  './common.jsx'
-
+import  './common.css'
+import SettingsRoundedIcon from '@mui/icons-material/SettingsRounded';
 
 export default function ConfigButton() {
   return (
-    <ConfigButton/>
+    <div className='ConfigButton'>
+      <button><SettingsRoundedIcon/></button>
+    </div>
   )
 }
