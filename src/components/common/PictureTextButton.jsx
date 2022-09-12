@@ -21,7 +21,7 @@ export default function PictureTextButton(props) {
           {
           props.button === true ?  <button className='AddFriendBtn Smallsvg'><PersonAddIcon/></button> 
           : 
-          <IconButton active={props.active} iconActive={props.iconActive} iconInactive={props.iconInactive}/>
+          <IconButton active={props.active} iconActive={props.iconActive} iconInactive={props.iconInactive} color={props.color}/>
           }  
           </div>
         :

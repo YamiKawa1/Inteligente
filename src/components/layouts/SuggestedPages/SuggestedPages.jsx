@@ -17,13 +17,25 @@ export default function SuggestedPages() {
     <div>
         <div className='Menu'>
           <h1>Suggested Pages</h1>
-          <PictureTextButton image={P1} shape='circle' width='1.5em' height='1.5em' name='Lorenzo Nostrade' subtitle='Company' isButton active={true} iconActive={<StarRoundedIcon/>} iconInactive={<StarOutlineRoundedIcon/>}/>
-          <PictureTextButton image={P2} shape='circle' width='1.5em' height='1.5em' name='Paola Nostrade' subtitle='Store' isButton active={true} iconActive={<StarRoundedIcon/>} iconInactive={<StarOutlineRoundedIcon/>}/>
-          <PictureTextButton image={P3} shape='circle' width='1.5em' height='1.5em' name='Juan De las nieves' subtitle='Company' isButton active={true} iconActive={<StarRoundedIcon/>} iconInactive={<StarOutlineRoundedIcon/>}/>
-          <PictureTextButton image={P4} shape='circle' width='1.5em' height='1.5em' name='Nerd Stark' subtitle='Local' isButton active={true} iconActive={<StarRoundedIcon/>} iconInactive={<StarOutlineRoundedIcon/>}/>
-          <PictureTextButton image={P5} shape='circle' width='1.5em' height='1.5em' name='Snoob Patrol' subtitle='Company' isButton active={true} iconActive={<StarRoundedIcon/>} iconInactive={<StarOutlineRoundedIcon/>}/>
-          <PictureTextButton image={P6} shape='circle' width='1.5em' height='1.5em' name='Nombre Random' subtitle='Company' isButton active={true} iconActive={<StarRoundedIcon/>} iconInactive={<StarOutlineRoundedIcon/>}/>
-          <PictureTextButton image={P9} shape='circle' width='1.5em' height='1.5em' name='Michael Jackson' subtitle='Company' isButton active={true} iconActive={<StarRoundedIcon/>} iconInactive={<StarOutlineRoundedIcon/>}/>
+          <PictureTextButton 
+          image={P1} 
+          shape='circle' 
+          width='1.5em' 
+          height='1.5em' 
+          name='Lorenzo Nostrade' 
+          subtitle='Company' 
+          isButton 
+          active={true} 
+          iconActive={<StarRoundedIcon/>} 
+          iconInactive={<StarOutlineRoundedIcon/>} 
+          color='#FFAA00'
+          />
+          <PictureTextButton image={P2} shape='circle' width='1.5em' height='1.5em' name='Paola Nostrade' subtitle='Store' isButton active={true} iconActive={<StarRoundedIcon/>} iconInactive={<StarOutlineRoundedIcon/>} color='#FFAA00'/>
+          <PictureTextButton image={P3} shape='circle' width='1.5em' height='1.5em' name='Juan De las nieves' subtitle='Company' isButton active={true} iconActive={<StarRoundedIcon/>} iconInactive={<StarOutlineRoundedIcon/>} color='#FFAA00'/>
+          <PictureTextButton image={P4} shape='circle' width='1.5em' height='1.5em' name='Nerd Stark' subtitle='Local' isButton active={true} iconActive={<StarRoundedIcon/>} iconInactive={<StarOutlineRoundedIcon/>} color='#FFAA00'/>
+          <PictureTextButton image={P5} shape='circle' width='1.5em' height='1.5em' name='Snoob Patrol' subtitle='Company' isButton active={true} iconActive={<StarRoundedIcon/>} iconInactive={<StarOutlineRoundedIcon/>} color='#FFAA00'/>
+          <PictureTextButton image={P6} shape='circle' width='1.5em' height='1.5em' name='Nombre Random' subtitle='Company' isButton active={true} iconActive={<StarRoundedIcon/>} iconInactive={<StarOutlineRoundedIcon/>} color='#FFAA00'/>
+          <PictureTextButton image={P9} shape='circle' width='1.5em' height='1.5em' name='Michael Jackson' subtitle='Company' isButton active={true} iconActive={<StarRoundedIcon/>} iconInactive={<StarOutlineRoundedIcon/>} color='#FFAA00'/>
         </div>
     </div>
   )

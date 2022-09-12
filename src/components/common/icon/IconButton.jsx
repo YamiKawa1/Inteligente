@@ -13,7 +13,7 @@ export default function IconButton(props) {
     <div>
         {
         isFavorite === true ? 
-        <button className='NotButton' onClick={handleFavorite}><span className='Smallsvg'>{props.iconActive}</span></button>  
+        <button className='NotButton' onClick={handleFavorite}><span className='Smallsvg' style={{color: props.color}}>{props.iconActive}</span></button>  
         : 
         <button className='NotButton' onClick={handleFavorite}><span className='Smallsvg'>{props.iconInactive}</span></button>
         }
