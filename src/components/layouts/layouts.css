@@ -109,3 +109,28 @@
     text-align: center;
     margin-bottom: .5em;
 }
+
+.progress  { 
+    position: relative;
+    height: 5px; 
+    width:100%; 
+    border-radius: 50px; 
+    background-color:#e6f3fa ; 
+    margin-bottom: 15px; 
+}
+ 
+.progress-bar  { 
+    background-color: #9c9ee2;
+    height: 100%; 
+    display:flex; 
+    align-items: center; 
+    transition: width 0.25s; 
+    border-radius: 5px; 
+}
+ 
+.progress-bar-text  { 
+    position: absolute;
+    right:  20px; 
+    font-size: 10px ; 
+    color :  black ; 
+}
