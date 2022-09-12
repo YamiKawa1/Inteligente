@@ -117,43 +117,43 @@ export const Publications = [
     }
 ]
 
-export const SuggestedPages = [
+export const SUGGESTEDPAGES = [
     {
-        "ProfilePicture": "P1",
+        "ProfilePicture": P5,
         "Name": "Lorenzo Nostrade",
-        "Subtitle": "Company",
+        "Category": "Company",
         "Favorite": true
     },
     {
-        "ProfilePicture": "P2",
+        "ProfilePicture": P2,
         "Name": "Arena Stark",
-        "Subtitle": "Company",
+        "Category": "Company",
         "Favorite": true
     },
     {
-        "ProfilePicture": "P3",
+        "ProfilePicture": P3,
         "Name": "Jehan Veracierta",
-        "Subtitle": "Company",
+        "Category": "Company",
         "Favorite": true
 
     },
     {
-        "ProfilePicture": "P1",
+        "ProfilePicture": P1,
         "Name": "Lorenzo Nostrade",
-        "Subtitle": "Company",
+        "Category": "Company",
         "Favorite": false
 
     },
     {
-        "ProfilePicture": "P2",
+        "ProfilePicture": P2,
         "Name": "Arena Stark",
-        "Subtitle": "Company",
+        "Category": "Company",
         "Favorite": true
     },
     {
-        "ProfilePicture": "P3",
+        "ProfilePicture": P3,
         "Name": "Jehan Veracierta",
-        "Subtitle": "Store",
+        "Category": "Store",
         "Favorite": false
     }
 ]
@@ -215,5 +215,35 @@ export const TWITTERFEEDS = [
         "Twitt":"Lorem Ipsum Kaizoku ni ore wa naru, mas cosas randoms, blanditiis hic saepe ut",
         "Hashtags": ["Hola", "NewYearNewMe", "ThisTime", "fromVenezuela", "XD"],
         "Favorite": false
+    }
+]
+
+export const LATESTPHOTOS = [
+    {
+        "Image": P1
+    },
+    {
+        "Image": P2
+    },
+    {
+        "Image": P3
+    },
+    {
+        "Image": P4
+    },
+    {
+        "Image": P5
+    },
+    {
+        "Image": P6
+    },
+    {
+        "Image": P7
+    },
+    {
+        "Image": P8
+    },
+    {
+        "Image": P9
     }
 ]

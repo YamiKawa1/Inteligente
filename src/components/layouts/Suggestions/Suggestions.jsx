@@ -11,7 +11,15 @@ export default function Suggestions() {
           <h1>Suggestions</h1>
           {
             SUGGESTIONS.map(sugestion => {
-              return <PictureTextButton image={sugestion.ProfilePicture} shape='circle' width='1.5em' height='1.5em' name={sugestion.Name} mutualFriends={sugestion.MutualFriends} isButton button/>
+              return <PictureTextButton 
+              image={sugestion.ProfilePicture} 
+              shape='circle' 
+              width='1.5em' 
+              height='1.5em' 
+              name={sugestion.Name} 
+              mutualFriends={sugestion.MutualFriends} 
+              isButton={true}
+              button={true}/>
             })
           }
         </div>
