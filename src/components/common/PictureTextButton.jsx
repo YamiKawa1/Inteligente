@@ -15,6 +15,7 @@ export default function PictureTextButton(props) {
         
         {props.mutualFriends? <p>{props.mutualFriends} Mutual Friends</p>: null}
         {props.category ? <p>{props.category}</p> : null}
+        {props.time ? <p>{props.time}</p> : null}
       </div>
 
       { 

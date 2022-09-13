@@ -7,7 +7,6 @@ import Button from '../../common/Button'
 import '../layouts.css'
 import FavoriteRoundedIcon from '@mui/icons-material/FavoriteRounded';
 import ChatBubbleOutlineRoundedIcon from '@mui/icons-material/ChatBubbleOutlineRounded';
-import ChatBubbleRoundedIcon from '@mui/icons-material/ChatBubbleRounded';
 import ShareRoundedIcon from '@mui/icons-material/ShareRounded';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
 import { PUBLICATIONS } from '../../../data/data'
@@ -30,7 +29,7 @@ export default function Post() {
           <IconNumber active={post.IsLiked} iconActive={<FavoriteRoundedIcon/>} iconInactive={<FavoriteBorderRoundedIcon/>} color='red' number={post.Likes}/>
           <PhotoGroup/>
           <div className='ms-auto d-flex'>
-            <IconNumber active={false} iconInactive={<ChatBubbleOutlineRoundedIcon/>} color='#692FB3' number={post.CommentsNumber}/>
+            <IconNumber active={false} iconActive={<ChatBubbleOutlineRoundedIcon/>} iconInactive={<ChatBubbleOutlineRoundedIcon/>} number={post.CommentsNumber}/>
             <IconNumber active={post.IsShared} iconActive={<ShareRoundedIcon/>} iconInactive={<ShareRoundedIcon/>} color='#692FB3' number={post.SharesNumber}/>
           </div>
   
