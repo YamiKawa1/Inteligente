@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import LS1 from '../../assets/img/LS1.jpg'
 import unknown from '../../assets/img/unknown.png'
 
 // export const Image = styled.img`
@@ -7,7 +6,7 @@ import unknown from '../../assets/img/unknown.png'
 // `
 
 export const HeaderImage = styled.div`
-background-image: url(${LS1});
+background-image: url(${props=> props.image});
 width: inherit;
 height: 35vh;
 background-repeat: no-repeat;

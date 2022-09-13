@@ -15,9 +15,10 @@ import POST3 from '../assets/img/POST3.jpg'
 
 
 
-export const PERFIL =[
+export const PROFILE =[
     {
         "ProfilePicture": P6,
+        "HeaderImage": LS1,
         "Name": "Kelly Jenners",
         "Subtitle": "UI/UX Designer",
         "About": "I love to program every thing that i see and i love to playvideogames",
@@ -28,6 +29,7 @@ export const PERFIL =[
     },
     {
         "ProfilePicture": P7,
+        "HeaderImage": LS1,
         "Name": "Arena Stark",
         "Subtitle": "Backend Developer",
         "About": "I love to program every thing that i see and i love to playvideogames",
@@ -38,6 +40,7 @@ export const PERFIL =[
     },
     {
         "ProfilePicture": P9,
+        "HeaderImage": LS1,
         "Name": "Jehan Veracierta",
         "Subtitle": "FullStack Developer",
         "About": "I love to program every thing that i see and i love to playvideogames",
