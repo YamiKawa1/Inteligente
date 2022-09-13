@@ -23,14 +23,14 @@
         font-size: 11px
     }
 
-.NameSubtitle h3{
-    margin-left: 0.7em;
-    margin-bottom: 0;
-}
+    .NameSubtitle h3{
+        margin-left: 0.7em;
+        margin-bottom: 0;
+    }
 
-.NameSubtitle p{
-    margin-left: 0.7em;
-}
+    .NameSubtitle p{
+        margin-left: 0.7em;
+    }
 
 .AddFriendBtn{
     background-color: #692FB3;

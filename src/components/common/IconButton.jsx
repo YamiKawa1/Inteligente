@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../common.css'
+import './common.css'
 
 export default function IconButton(props) {
   const[isFavorite, setIsFavorite] = useState(props.active)

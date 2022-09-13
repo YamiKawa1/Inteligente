@@ -2,7 +2,7 @@ import React from 'react'
 import { Picture } from './styledComponents'
 import './common.css'
 import PersonAddIcon from '@mui/icons-material/PersonAdd';
-import  IconButton from './icon/IconButton';
+import  IconButton from './IconButton';
 
 export default function PictureTextButton(props) {
   return (

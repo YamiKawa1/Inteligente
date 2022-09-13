@@ -1,6 +1,6 @@
 import React from 'react'
 import './common.css'
-import IconButton from './icon/IconButton'
+import IconButton from './IconButton'
 
 export default function IconNumber(props) {
   return (
