@@ -48,68 +48,72 @@ export const PERFIL =[
     }
 ]
 
-export const Publications = [
+export const PUBLICATIONS = [
     {
-        "ProfilePicture": "P1",
+        "ProfilePicture": P1,
         "Name": "Kelly Jenners",
         "PostText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ea dolorem rerum asperiores commodi nulla tenetur ipsa quod fuga. Id dolore odio nostrum tenetur, quisquam officiis molestias et rerum rem.",
-        "Photo": "POST1",
+        "Time": "13 Dec 2022 at 1:16 AM",
+        "Photo": POST1,
         "Likes": 1000,
         "IsLiked": true,
+        "IsShared": true,
         "CommentsNumber": 1000,
         "SharesNumber": 1000,
         "Comments": [
             {
-            "ProfilePicture": "P1",
+            "ProfilePicture": P9,
             "Name": "Lorenzo Van Moterhorn",
             "PostText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ea dolorem rerum asperiores commodi nulla tenetur ipsa quod fuga. Id dolore odio nostrum tenetur, quisquam officiis molestias et rerum rem."   
             },
             {
-            "ProfilePicture": "P1",
+            "ProfilePicture": P1,
             "Name": "Lorenzo Van Moterhorn",
             "PostText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ea dolorem rerum asperiores commodi nulla tenetur ipsa quod fuga. Id dolore odio nostrum tenetur, quisquam officiis molestias et rerum rem."   
             }
         ]
     },
     {
-        "ProfilePicture": "P2",
+        "ProfilePicture": P2,
         "Name": "Barney Stinson",
         "PostText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ea dolorem rerum asperiores commodi nulla tenetur ipsa quod fuga. Id dolore odio nostrum tenetur, quisquam officiis molestias et rerum rem.",
-        "Photo": "POST2",
+        "Photo": POST2,
         "Likes": 24,
         "IsLiked": false,
+        "IsShared": false,
         "CommentsNumber": 54,
         "SharesNumber": 2,
         "Comments": [
             {
-            "ProfilePicture": "P1",
+            "ProfilePicture": P4,
             "Name": "Lorenzo Van Moterhorn",
             "PostText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ea dolorem rerum asperiores commodi nulla tenetur ipsa quod fuga. Id dolore odio nostrum tenetur, quisquam officiis molestias et rerum rem."   
             },
             {
-            "ProfilePicture": "P1",
+            "ProfilePicture": P7,
             "Name": "Lorenzo Van Moterhorn",
             "PostText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ea dolorem rerum asperiores commodi nulla tenetur ipsa quod fuga. Id dolore odio nostrum tenetur, quisquam officiis molestias et rerum rem."   
             }
         ]
     },
     {
-        "ProfilePicture": "P3",
+        "ProfilePicture": P3,
         "Name": "David Bowie",
         "PostText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ea dolorem rerum asperiores commodi nulla tenetur ipsa quod fuga. Id dolore odio nostrum tenetur, quisquam officiis molestias et rerum rem.",
-        "Photo": "POST3",
+        "Photo": POST3,
         "Likes": 1000000,
         "IsLiked": true,
+        "IsShared": false,
         "CommentsNumber": 1000000,
         "SharesNumber": 1000000,
         "Comments": [
             {
-            "ProfilePicture": "P1",
+            "ProfilePicture": P1,
             "Name": "Lorenzo Von Matterhorn",
             "PostText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ea dolorem rerum asperiores commodi nulla tenetur ipsa quod fuga. Id dolore odio nostrum tenetur, quisquam officiis molestias et rerum rem."    
             },
             {
-            "ProfilePicture": "P1",
+            "ProfilePicture": P8,
             "Name": "Lorenzo Van Moterhorn",
             "PostText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ea dolorem rerum asperiores commodi nulla tenetur ipsa quod fuga. Id dolore odio nostrum tenetur, quisquam officiis molestias et rerum rem."    
             }

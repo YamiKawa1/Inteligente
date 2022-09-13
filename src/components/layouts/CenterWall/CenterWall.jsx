@@ -7,8 +7,6 @@ export default function CenterWall() {
   return (
     <div>
       <Post/>
-      <Post/>
-      <Post/>
       <br />
       <div className='LoadMore'>
         <Button active height='2em' text='Load More'/>
